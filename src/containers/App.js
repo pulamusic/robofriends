@@ -16,6 +16,7 @@ class App extends Component {
   }
 
   // reconfigured the robots file (somehow) using the jasonplaceholder fake API service. Didn't understand this part of the tutorial, but check out the json code output by the url below. Cool stuff...I think.
+  // NOTE: This is using the new `fetch().then(response => response.json())` API AJAX function rather than the older GET json() mess.
   componentDidMount () {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
