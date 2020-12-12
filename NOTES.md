@@ -1,5 +1,7 @@
 # NOTES
 
+I have to change something.
+
 Used `npm create-react-app robofriends` to create the overall framework of this project.
 * Installed the `create-react-app` feature globally.
 * Use `npm start` to start the development server.
